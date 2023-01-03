@@ -3,10 +3,9 @@
 
 
 class Rectangle:
-
+    '''initialization of the class'''
     number_of_instances = 0
 
-    '''initialization of the class'''
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
